@@ -1,4 +1,9 @@
 [![Build Status](https://secure.travis-ci.org/cedced19/bespoke-theme-greeny.png?branch=master)](https://travis-ci.org/cedced19/bespoke-theme-greeny)
+[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+[![Dependencies](https://david-dm.org/cedced19/bespoke-theme-greeny.png)](https://david-dm.org/cedced19/bespoke-theme-greeny)
+[![devDependencies](https://david-dm.org/cedced19/bespoke-theme-greeny/dev-status.png)](https://david-dm.org/cedced19/bespoke-theme-greeny#info=devDependencies)
+[![NPM version](https://badge.fury.io/js/bespoke-theme-greeny.svg)](http://badge.fury.io/js/bespoke-theme-greeny)
+
 
 # bespoke-theme-greeny
 
