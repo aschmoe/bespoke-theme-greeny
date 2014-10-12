@@ -33,10 +33,12 @@ When using browser globals:
 
 ```js
 bespoke.from('#presentation', [
-  bespoke.themes.greeny.scale(),
+  bespoke.themes.greeny.scale(), // You don't have to use bespoke-scale
   bespoke.themes.greeny.theme()
 ]);
 ```
+
+To inverse color use `inverse` class.
 
 ## Credits
 

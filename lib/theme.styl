@@ -2,11 +2,11 @@ slide_width = 640px
 slide_height = 480px
 slide_background = #2ecc71
 
-slide_transition_length = .6s
-slide_transition_easing = ease
-slide_transition_rotate_y = 90deg
+slide_transition_length = .62s
+slide_transition_easing = ease-in-out
+slide_transition_rotate_y = 120deg
 // Safari bugs out on 3d transform-origins, so we have to fake it
-slide_transition_nudge_x = -100px
+slide_transition_nudge_x = -130px
 
 bullet_transition_length = .3s
 bullet_transition_easing = ease
@@ -61,7 +61,7 @@ bullet_transition_translate_x = 16px
   margin-top: (slide_height / 2) * -1
   left: 50%
   margin-left: (slide_width / 2) * -1
-  background: slide_background
+  background-color: slide_background
   padding: 40px
   border-radius: 0
   @media print
@@ -133,8 +133,8 @@ bullet_transition_translate_x = 16px
   top: 0
   left: 0
   right: 0
-  height: 4px
-  @media only screen and (min-width: 1366px)
+  height: 16px
+  @media only screen and (max-width: 400px)
     height: 8px
   @media print
     display: none
@@ -144,12 +144,6 @@ bullet_transition_translate_x = 16px
   position: absolute
   height: 100%
   background: #16a085
-  border-radius: 0 4px 4px 0
-
-// bespoke-backdrop styles
-
-.emphatic
-  background: slide_background
 
 .bespoke-backdrop
   position: absolute
@@ -176,6 +170,7 @@ body
   font-family: helvetica, arial, sans-serif
   font-size: 18px
   color: #ecf0f1
+  background: slide_background
 
 h1
   font-size: 72px
@@ -211,3 +206,11 @@ p
 a
   color: #0089f3
   text-decoration: none
+
+::selection
+    color: #2ecc71
+    background-color: #ecf0f1
+
+.inverse
+    background-color: #2ecc71
+    color: #2c3e50
