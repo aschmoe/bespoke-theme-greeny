@@ -5,7 +5,7 @@ html
     meta(name='description', content='A theme for Bespoke.js')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     meta(charset='utf-8')
-
+    <style>#forkme{-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-ms-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);background-color:#fff;overflow:hidden;position:fixed;z-index:30;width:240px;right:-60px;top:46px}#forkme a{color:#404040;display:block;font:13px Helvetica Neue,Arial,sans-serif;margin:.05em 0 .075em;padding:.6em;text-align:center;text-decoration:none}</style>
   body
 
     article
@@ -27,14 +27,12 @@ html
           li Etiam hendrerit nunc ut tortor interdum faucibus.
           li Nulla eget nibh et enim sagittis dictum.
 
-      section(data-bespoke-backdrop='emphatic')
-        h1 Emphatic Slide
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
 
       section
         h1.bullet Enjoy <span class='bullet'>:)</span>
 
-    a(href='https://github.com/cedced19/bespoke-theme-greeny')
-      img(style='position: absolute; top: 0; right: 0; border: 0; width: 25vw; max-width: 149px;', src='http://aral.github.com/fork-me-on-github-retina-ribbons/right-grey@2x.png' alt='Fork me on GitHub')
+    div(id="forkme")
+        <a href="https://github.com/cedced19/bespoke-theme-greeny">Fork me on Github</a>
+
 
     script(src='build/build.js')
