@@ -43,8 +43,25 @@ bespoke.from('#presentation', [
 ]);
 ```
 
-To inverse color use `inverse` class.
+### Special class
+```css
+.inverse
+   background-color: #2ecc71;
+  color: #2c3e50;
+  }
 
+.stick
+  border-width: 3px 0px;
+  border-style: solid;
+  border-color: #DDD;
+  }
+
+.single-words {
+  word-spacing: 9999px;
+  line-height: 2.9em;
+  overflow: hidden;
+  }
+```
 ## Credits
 
 This theme was built with [generator-bespoketheme](https://github.com/markdalgleish/generator-bespoketheme).
